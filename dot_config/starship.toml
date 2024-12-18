@@ -1,0 +1,39 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+add_newline = true
+
+format = """\
+$directory\
+$git_branch\
+$git_commit\
+$fill \
+$cmd_duration\
+$time\
+$line_break\
+$jobs\
+$status\
+$character
+"""
+
+[fill]
+symbol = '─'
+style = "white"
+
+[directory]
+fish_style_pwd_dir_length = 1
+
+[time]
+disabled = false
+use_12hr = true
+
+[status]
+disabled = false
+
+[cmd_duration]
+min_time = 0
+show_milliseconds = true
+
+[git_commit]
+only_detached = false
+tag_disabled = false
+tag_symbol = '/'

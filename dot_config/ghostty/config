@@ -1,0 +1,7 @@
+initial-window = false
+copy-on-select = true
+background-opacity = 0.9
+background-blur-radius = 5
+window-step-resize = true
+keybind = global:alt+grave_accent=toggle_quick_terminal
+macos-option-as-alt = true
