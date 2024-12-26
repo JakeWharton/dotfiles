@@ -36,4 +36,4 @@ show_milliseconds = true
 [git_commit]
 only_detached = false
 tag_disabled = false
-tag_symbol = '/'
+tag_symbol = ' '
