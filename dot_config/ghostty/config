@@ -1,8 +1,13 @@
 initial-window = false
-copy-on-select = true
+copy-on-select = clipboard
+window-save-state = always
 background-opacity = 0.9
 background-blur-radius = 5
 window-step-resize = true
 keybind = global:alt+grave_accent=toggle_quick_terminal
+quick-terminal-space-behavior = remain
+quick-terminal-screen = macos-menu-bar
+mouse-hide-while-typing = true
 macos-option-as-alt = true
 macos-titlebar-proxy-icon = hidden
+scrollback-limit = 100000000
