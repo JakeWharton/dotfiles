@@ -10,4 +10,5 @@ quick-terminal-screen = macos-menu-bar
 mouse-hide-while-typing = true
 macos-option-as-alt = true
 macos-titlebar-proxy-icon = hidden
+macos-icon = retro
 scrollback-limit = 100000000
