@@ -25,6 +25,7 @@ fish_style_pwd_dir_length = 1
 [time]
 disabled = false
 use_12hr = true
+format = 'at [$time]($style)'
 
 [status]
 disabled = false
