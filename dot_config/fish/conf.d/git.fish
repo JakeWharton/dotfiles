@@ -7,7 +7,7 @@ function branch
 end
 
 function __git_trunk
-  for branch in "trunk" "main" "master"
+  for branch in "develop" "trunk" "main" "master"
     if git rev-parse "$branch" &>/dev/null
       echo $branch
       break
