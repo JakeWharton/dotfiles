@@ -1,0 +1,57 @@
+[user]
+	name = Jake Wharton
+	email = jw@jakewharton.com
+
+[core]
+	editor = nano
+	excludesfile = ~/.gitignore
+
+[init]
+	defaultBranch = trunk
+
+[commit]
+	verbose = true
+
+[rebase]
+	updateRefs = true
+	autosquash = true
+
+[push]
+	default = current
+
+[pull]
+	rebase = true
+
+[merge]
+	renameLimit = 999999
+
+[pack]
+	useSparse = true
+
+[color]
+	ui = auto
+
+[alias]
+	co = checkout
+	st = status
+
+[credential]
+	helper = osxkeychain
+
+[http]
+	cookiefile = ~/.gitcookies
+
+[diff]
+	external = difft --display inline
+
+[pager]
+	difftool = true
+
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+
+[includeIf "gitdir:~/dev/skylight/"]
+	path = .gitconfig-skylight
