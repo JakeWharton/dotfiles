@@ -43,6 +43,8 @@
 
 [diff]
 	external = difft --display inline
+	noprefix = true
+	algorithm = patience
 
 [pager]
 	difftool = true
@@ -52,6 +54,9 @@
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
+
+[submodule]
+	recurse = true
 
 [includeIf "gitdir:~/dev/skylight/"]
 	path = .gitconfig-skylight
